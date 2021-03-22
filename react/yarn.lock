@@ -1141,9 +1141,9 @@
     "tslib" "2.0.1"
 
 "@devexpress/utils@1.3":
-  "integrity" "sha512-fQdPPq5snZtNhWVp/I75xE4VvHWC3ApQC19AuMnDuhKnHMKqkA4f5nSEkUatBcvt3bhbLw0Bki4KuKtDb65xTA=="
-  "resolved" "https://registry.npmjs.org/@devexpress/utils/-/utils-1.3.3.tgz"
-  "version" "1.3.3"
+  "integrity" "sha512-qUf7lxfOw/VnU45R+EVrY5qGOOzP+mT/0g+rPExtgbn7JrDAKOXq2wtIbiyXHDAZYaZJQIzGxXSnDEF9RzUsrQ=="
+  "resolved" "https://registry.npmjs.org/@devexpress/utils/-/utils-1.3.4.tgz"
+  "version" "1.3.4"
   dependencies:
     "tslib" "2.0.1"
 
@@ -4106,26 +4106,26 @@
     "address" "^1.0.1"
     "debug" "^2.6.0"
 
-"devexpress-diagram@2.0.11":
-  "integrity" "sha512-ZxLLBOQJuv54Keh4hcSK17YodOQ4PBvhgrAmqPiWI29winEa+Q6lFYwTakPpGa72FYAmFekwgtac8/WOS/x2ZQ=="
-  "resolved" "https://registry.npmjs.org/devexpress-diagram/-/devexpress-diagram-2.0.11.tgz"
-  "version" "2.0.11"
+"devexpress-diagram@2.0.18":
+  "integrity" "sha512-5u3q1K9zhbGseK5jkh7zwPzefmmW88O6YwtaBB/pRkw1C8L9h58aqFfGTHqJipu7Jy/gxemCcNduahYwecDA/A=="
+  "resolved" "https://registry.npmjs.org/devexpress-diagram/-/devexpress-diagram-2.0.18.tgz"
+  "version" "2.0.18"
   dependencies:
     "@devexpress/utils" "1.3"
     "es6-object-assign" "^1.1.0"
 
-"devexpress-gantt@2.0.18":
-  "integrity" "sha512-tmcZPd1V4NccrO4ei9zcMMuxGCdReEIrS0KVxyu9H4DMEIQyW4qLrffgyfoCbWoJcOZbGeSwfcq1i4b44YYzCw=="
-  "resolved" "https://registry.npmjs.org/devexpress-gantt/-/devexpress-gantt-2.0.18.tgz"
-  "version" "2.0.18"
+"devexpress-gantt@2.0.24":
+  "integrity" "sha512-g5hwzu//EWvBicffwZ2LrfJDy1qCxePvnbdQXmmBaQ9OOqH6+EFkPUI0fzd4/sDpLBjVh7SM3ju2yIBpFGBE1A=="
+  "resolved" "https://registry.npmjs.org/devexpress-gantt/-/devexpress-gantt-2.0.24.tgz"
+  "version" "2.0.24"
   dependencies:
     "@devexpress/utils" "1.3.2"
-    "tslib" "2.0.1"
+    "tslib" "2.1.0"
 
-"devextreme-quill@~0.9.8":
-  "integrity" "sha512-acrAE+ukbRjoacC/r+bRNhCo/xTOxcnNhZ2KUtxoOuiaqPN9WEK4HCfcv44G9JIKPQCmZUFr6O/AYg1fgOYwrA=="
-  "resolved" "https://registry.npmjs.org/devextreme-quill/-/devextreme-quill-0.9.8.tgz"
-  "version" "0.9.8"
+"devextreme-quill@~0.10.2":
+  "integrity" "sha512-ZVSgVla5I6/ZDfWEthlJMfsDYkh/790+MWWL6U55KQF7ae/Oexdg/NyZg9nHSIdEd046tQn/slWU6FvmaUS+VQ=="
+  "resolved" "https://registry.npmjs.org/devextreme-quill/-/devextreme-quill-0.10.3.tgz"
+  "version" "0.10.3"
   dependencies:
     "core-js" "^3.6.5"
     "eventemitter3" "^4.0.0"
@@ -4135,28 +4135,28 @@
     "parchment" "2.0.0-dev.2"
     "quill-delta" "4.2.2"
 
-"devextreme-react@20.2.5":
-  "integrity" "sha512-exrMx2TjszwGOqNPByr0bKYKsqlYnoJwEjS45c4NYp5Bpe+0WZuMwW0RzWTBqGrJfiwbVfLCb8t+adHwKajAeA=="
-  "resolved" "https://registry.npmjs.org/devextreme-react/-/devextreme-react-20.2.5.tgz"
-  "version" "20.2.5"
+"devextreme-react@20.2.6":
+  "integrity" "sha512-QDkFpPkAM6KrT+QwDBxp+zf+gxstz0nQWG+odW6O5h8mzZFOBDsVkCOttc5S31rQkjajEjvlY+0ebC8wKCHkIA=="
+  "resolved" "https://registry.npmjs.org/devextreme-react/-/devextreme-react-20.2.6.tgz"
+  "version" "20.2.6"
   dependencies:
     "dasherize" "^2.0.0"
     "dot" "^1.1.2"
     "prop-types" "^15.6.1"
 
-"devextreme@~20.2.5", "devextreme@20.2.5":
-  "integrity" "sha512-KPMq/y+zlPu3JOxdaV0TvqA9AzDKqljpuuhetLc9k6IFRTRhMa2yWiHvePp/FZmfWhumIDIj1AEVedUySDlCUQ=="
-  "resolved" "https://registry.npmjs.org/devextreme/-/devextreme-20.2.5.tgz"
-  "version" "20.2.5"
+"devextreme@~20.2.6", "devextreme@20.2.6":
+  "integrity" "sha512-Prs+Mx+cuGqgEl4qlJHiw2i/v7cnybjn1yNXiP2OPDIccoqwiSdI4UInfHwrM6w3N42+weDxS8nEDmBav31Smg=="
+  "resolved" "https://registry.npmjs.org/devextreme/-/devextreme-20.2.6.tgz"
+  "version" "20.2.6"
   dependencies:
-    "devexpress-diagram" "2.0.11"
-    "devexpress-gantt" "2.0.18"
-    "devextreme-quill" "~0.9.8"
+    "devexpress-diagram" "2.0.18"
+    "devexpress-gantt" "2.0.24"
+    "devextreme-quill" "~0.10.2"
     "jszip" "^2.0.0 || ^3.0.0"
     "preact" "^10.4.5"
     "rrule" "2.6.6"
     "showdown" "^1.8.6"
-    "turndown" "^6.0.0"
+    "turndown" "^7.0.0"
 
 "diff-sequences@^26.6.2":
   "integrity" "sha512-Mv/TDa3nZ9sbc5soK+OoA74BsS3mL37yixCvUAQkiuA4Wz6YtwP/K47n2rv2ovzHZvoiQeA5FTQOschKkEwB0Q=="
@@ -4269,6 +4269,11 @@
   "version" "2.4.2"
   dependencies:
     "domelementtype" "1"
+
+"domino@^2.1.6":
+  "integrity" "sha512-3VdM/SXBZX2omc9JF9nOPCtDaYQ67BGp5CoLpIQlO2KCAPETs8TcDHacF26jXadGbvUteZzRTeos2fhID5+ucQ=="
+  "resolved" "https://registry.npmjs.org/domino/-/domino-2.1.6.tgz"
+  "version" "2.1.6"
 
 "domutils@^1.5.1", "domutils@^1.7.0":
   "integrity" "sha512-Lgd2XcJ/NjEw+7tFvfKxOzCYKZsdct5lczQ2ZaQY8Djz7pfAD3Gbp8ySJWtreII/vDlMVmxwa6pHmdxIYgttDg=="
@@ -6800,7 +6805,7 @@
   "resolved" "https://registry.npmjs.org/jsbn/-/jsbn-0.1.1.tgz"
   "version" "0.1.1"
 
-"jsdom@^16.2.0", "jsdom@^16.4.0":
+"jsdom@^16.4.0":
   "integrity" "sha512-lYMm3wYdgPhrl7pDcRmvzPhhrGVBeVhPIqeHjzeiHN3DFmD1RBpbExbi8vU7BJdH8VAZYovR8DMt0PNNDM7k8w=="
   "resolved" "https://registry.npmjs.org/jsdom/-/jsdom-16.4.0.tgz"
   "version" "16.4.0"
@@ -10956,6 +10961,11 @@
   "resolved" "https://registry.npmjs.org/tslib/-/tslib-2.0.1.tgz"
   "version" "2.0.1"
 
+"tslib@2.1.0":
+  "integrity" "sha512-hcVC3wYEziELGGmEEXue7D75zbwIIVUMWAVbHItGPx0ziyXxrOMQx4rQEVEV45Ut/1IotuEvwqPopzIOkDMf0A=="
+  "resolved" "https://registry.npmjs.org/tslib/-/tslib-2.1.0.tgz"
+  "version" "2.1.0"
+
 "tsutils@^3.17.1":
   "integrity" "sha512-RYbuQuvkhuqVeXweWT3tJLKOEJ/UUw9GjNEZGWdrLLlM+611o1gwLHBpxoFJKKl25fLprp2eVthtKs5JOrNeXg=="
   "resolved" "https://registry.npmjs.org/tsutils/-/tsutils-3.20.0.tgz"
@@ -10975,12 +10985,12 @@
   dependencies:
     "safe-buffer" "^5.0.1"
 
-"turndown@^6.0.0":
-  "integrity" "sha512-UVJBhSyRHCpNKtQ00mNWlYUM/i+tcipkb++F0PrOpt0L7EhNd0AX9mWEpL2dRFBu7LWXMp4HgAMA4OeKKnN7og=="
-  "resolved" "https://registry.npmjs.org/turndown/-/turndown-6.0.0.tgz"
-  "version" "6.0.0"
+"turndown@^7.0.0":
+  "integrity" "sha512-G1FfxfR0mUNMeGjszLYl3kxtopC4O9DRRiMlMDDVHvU1jaBkGFg4qxIyjIk2aiKLHyDyZvZyu4qBO2guuYBy3Q=="
+  "resolved" "https://registry.npmjs.org/turndown/-/turndown-7.0.0.tgz"
+  "version" "7.0.0"
   dependencies:
-    "jsdom" "^16.2.0"
+    "domino" "^2.1.6"
 
 "tweetnacl@^0.14.3", "tweetnacl@~0.14.0":
   "integrity" "sha1-WuaBd/GS1EViadEIr6k/+HQ/T2Q="
