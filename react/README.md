@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Getting Started with DevExtreme React Floating Action Button - Handle Screen Transitions
+
+This repository stores React source code for the following tutorial: [Getting Started with Floating Action Button - Handle Screen Transitions](https://js.devexpress.com/Documentation/Guide/UI_Components/Floating_Action_Button/Getting_Started_with_Floating_Action_Button/#Handle_Screen_Transitions).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
