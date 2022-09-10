@@ -3545,9 +3545,9 @@
   "version" "2.6.12"
 
 "core-js@^3.19.1", "core-js@^3.6.5":
-  "integrity" "sha512-7Vh11tujtAZy82da4duVreQysIoO2EvVrur7y6IzZkH1IHPSekuDi8Vuw1+YKjkbfWLRD7Nc9ICQ/sIUDutcyg=="
-  "resolved" "http://npmproxy:4873/core-js/-/core-js-3.23.5.tgz"
-  "version" "3.23.5"
+  "integrity" "sha512-sr0FY4lnO1hkQ4gLDr24K0DGnweGO1QwSj5BpfQjpSJPdqWalja4cTps29Y/PJVG/P7FYlPDkH3hO+Tr0CvDgQ=="
+  "resolved" "http://npmproxy:4873/core-js/-/core-js-3.25.1.tgz"
+  "version" "3.25.1"
 
 "core-util-is@~1.0.0", "core-util-is@1.0.2":
   "integrity" "sha1-tf1UIgqivFq1eqtxQMlAdUUDwac="
@@ -4149,10 +4149,10 @@
     "parchment" "2.0.0-dev.2"
     "quill-delta" "4.2.2"
 
-"devextreme-react@21.2.9":
-  "integrity" "sha512-tWyFEQnQDEZwE0xcBBO1WR4P/7kIcz2VXEeWgFZOkLsHkVGQVD+cCVh3jFNWX6vOyzDYDgqQpQe0G4w+bM5MRw=="
-  "resolved" "http://npmproxy:4873/devextreme-react/-/devextreme-react-21.2.9.tgz"
-  "version" "21.2.9"
+"devextreme-react@21.2.10":
+  "integrity" "sha512-irR2whgswGptIjmDO5hDrnN25OCIyS4e9NGzulsEKbzDXCACluT9vniAlTyKPhsLZPLsgYwsyyPuXZx4ohP+FQ=="
+  "resolved" "http://npmproxy:4873/devextreme-react/-/devextreme-react-21.2.10.tgz"
+  "version" "21.2.10"
   dependencies:
     "prop-types" "^15.6.1"
 
@@ -4163,10 +4163,10 @@
   dependencies:
     "yargs" "^17.2.1"
 
-"devextreme@~21.2.9", "devextreme@21.2.9":
-  "integrity" "sha512-viRLUmvwFSWTif9RZaTDGgH1ZxAXwDRn6nFiukq4TTgCZlWJFrCz4I+O+rKrKkDTVi8iXNNLGFb+O7RDxFsvVQ=="
-  "resolved" "http://npmproxy:4873/devextreme/-/devextreme-21.2.9.tgz"
-  "version" "21.2.9"
+"devextreme@~21.2.10", "devextreme@21.2.10":
+  "integrity" "sha512-5h8p+fHY3tjeTnyLXbKF48YNoRhXv9192bSpS8ub3zLUN0j9VzL03rtalYiCDHH6ohMTJ0KGlocfN4RZEsX5aA=="
+  "resolved" "http://npmproxy:4873/devextreme/-/devextreme-21.2.10.tgz"
+  "version" "21.2.10"
   dependencies:
     "@babel/runtime" "^7.12.1"
     "@devextreme/runtime" "~2.3.15"
@@ -7019,9 +7019,9 @@
     "object.assign" "^4.1.2"
 
 "jszip@^3.7.1":
-  "integrity" "sha512-LDfVtOLtOxb9RXkYOwPyNBTQDL4eUbqahtoY6x07GiDJHwSYvn8sHHIw8wINImV3MqbMNve2gSuM1DDqEKk09Q=="
-  "resolved" "http://npmproxy:4873/jszip/-/jszip-3.10.0.tgz"
-  "version" "3.10.0"
+  "integrity" "sha512-xXDvecyTpGLrqFrvkrUSoxxfJI5AH7U8zxxtVclpsUtMCq4JQ290LY8AW5c7Ggnr/Y/oK+bQMbqK2qmtk3pN4g=="
+  "resolved" "http://npmproxy:4873/jszip/-/jszip-3.10.1.tgz"
+  "version" "3.10.1"
   dependencies:
     "lie" "~3.3.0"
     "pako" "~1.0.2"
@@ -11911,9 +11911,9 @@
     "decamelize" "^1.2.0"
 
 "yargs-parser@^21.0.0":
-  "integrity" "sha512-9BK1jFpLzJROCI5TzwZL/TU4gqjK5xiHV/RfWLOahrjAko/e4DJkRDZQXfvqAsiZzzYhgAzbgz6lg48jcm4GLg=="
-  "resolved" "http://npmproxy:4873/yargs-parser/-/yargs-parser-21.0.1.tgz"
-  "version" "21.0.1"
+  "integrity" "sha512-tVpsJW7DdjecAiFpbIB1e3qxIQsE6NoPc5/eTdrbbIC4h0LVsWhnoa3g+m2HclBIujHzsxZ4VJVA+GUuc2/LBw=="
+  "resolved" "http://npmproxy:4873/yargs-parser/-/yargs-parser-21.1.1.tgz"
+  "version" "21.1.1"
 
 "yargs@^13.3.2":
   "integrity" "sha512-AX3Zw5iPruN5ie6xGRIDgqkT+ZhnRlZMLMHAs8tg7nRruy2Nb+i5o9bwghAogtM08q1dpr2LVoS8KSTMYpWXUw=="
