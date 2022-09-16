@@ -4137,9 +4137,9 @@
     "tslib" "2.3.1"
 
 "devextreme-quill@~1.5.16":
-  "integrity" "sha512-ZaYpLZRMC3NkLzbKdIaJyG6b4mTWlFjJM4V68RN43qwl/SnMnes7WC1gMwP3CBdWuh7ObsXXTh+cMMSVqUSeLA=="
-  "resolved" "http://npmproxy:4873/devextreme-quill/-/devextreme-quill-1.5.16.tgz"
-  "version" "1.5.16"
+  "integrity" "sha512-dgp/fwrSXbeuDAYfOKuE8jE+AKPNmywdSm0QzvJ23rS+WFho1pPWE1RK354Bpv9A4Zr3C0A/6/+blO+qGySS5w=="
+  "resolved" "http://npmproxy:4873/devextreme-quill/-/devextreme-quill-1.5.17.tgz"
+  "version" "1.5.17"
   dependencies:
     "core-js" "^3.19.1"
     "eventemitter3" "^4.0.0"
