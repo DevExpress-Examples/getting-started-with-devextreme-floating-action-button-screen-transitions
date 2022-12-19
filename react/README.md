@@ -1,6 +1,6 @@
-# Getting Started with DevExtreme React Floating Action Button - Handle Screen Transitions
+# DevExtreme React Floating Action Button Handle Screen Transitions - Getting Started 
 
-This repository stores React source code for the following tutorial: [Getting Started with Floating Action Button - Handle Screen Transitions](https://js.devexpress.com/Documentation/Guide/UI_Components/Floating_Action_Button/Getting_Started_with_Floating_Action_Button/#Handle_Screen_Transitions).
+This repository stores the code examples of the React Floating Action Button component for the [Getting Started with Floating Action Button - Handle Screen Transitions](https://js.devexpress.com/Documentation/Guide/UI_Components/Floating_Action_Button/Getting_Started_with_Floating_Action_Button/#Handle_Screen_Transitions) tutorial. Different screens use different FABs because a FAB should perform or contain only actions that can be performed on a particular screen. 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
