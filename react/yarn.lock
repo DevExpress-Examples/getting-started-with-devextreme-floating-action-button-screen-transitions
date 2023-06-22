@@ -3545,9 +3545,9 @@
   "version" "2.6.12"
 
 "core-js@^3.19.1", "core-js@^3.6.5":
-  "integrity" "sha512-hQotSSARoNh1mYPi9O2YaWeiq/cEB95kOrFb4NCrO4RIFt1qqNpKsaE+vy/L3oiqvND5cThqXzUU3r9F7Efztg=="
-  "resolved" "http://npmproxy.devexpress.devx:4873/core-js/-/core-js-3.30.0.tgz"
-  "version" "3.30.0"
+  "integrity" "sha512-NIp2TQSGfR6ba5aalZD+ZQ1fSxGhDo/s1w0nx3RYzf2pnJxt7YynxFlFScP6eV7+GZsKO95NSjGxyJsU3DZgeQ=="
+  "resolved" "http://npmproxy.devexpress.devx:4873/core-js/-/core-js-3.31.0.tgz"
+  "version" "3.31.0"
 
 "core-util-is@~1.0.0", "core-util-is@1.0.2":
   "integrity" "sha1-tf1UIgqivFq1eqtxQMlAdUUDwac="
@@ -4149,10 +4149,10 @@
     "parchment" "2.0.0-dev.2"
     "quill-delta" "4.2.2"
 
-"devextreme-react@21.2.13":
-  "integrity" "sha512-Ss05P1G+mi+9uQe4piUD9Fk5wPPY/jjDsvnwLcfyUXHAJp1TxgM8F8ObbUwxsouB85H+PvK/nGh52lA9o6L7vA=="
-  "resolved" "http://npmproxy.devexpress.devx:4873/devextreme-react/-/devextreme-react-21.2.13.tgz"
-  "version" "21.2.13"
+"devextreme-react@21.2.14":
+  "integrity" "sha512-+k6dGn4EIVicuhSMFLd/EUy3XD6j0Rq7yZ+Lv34hGB6DZ7trgZLb+rY+aKBA/MOn6sj6xnqcnJ0olCkOrUFZ2A=="
+  "resolved" "http://npmproxy.devexpress.devx:4873/devextreme-react/-/devextreme-react-21.2.14.tgz"
+  "version" "21.2.14"
   dependencies:
     "prop-types" "^15.6.1"
 
@@ -4163,10 +4163,10 @@
   dependencies:
     "yargs" "^17.2.1"
 
-"devextreme@~21.2.13", "devextreme@21.2.13":
-  "integrity" "sha512-2Dh4niC9VZwG9GCo5Aobi8KFzFNrmWgoOTWjQpoJWomiSlsDJ3w4WX83YsyCESyvf92GA+/LjQmAfFOMz2V37A=="
-  "resolved" "http://npmproxy.devexpress.devx:4873/devextreme/-/devextreme-21.2.13.tgz"
-  "version" "21.2.13"
+"devextreme@~21.2.14", "devextreme@21.2.14":
+  "integrity" "sha512-4U2PY408lpb3hSR5s2VHx4O6krQsdj3ZRysCmMMJTmaMKyjEf0wy1N7ewZ88yf5u6K/86nKZvRC3Tu3A8wl0Tg=="
+  "resolved" "http://npmproxy.devexpress.devx:4873/devextreme/-/devextreme-21.2.14.tgz"
+  "version" "21.2.14"
   dependencies:
     "@babel/runtime" "^7.12.1"
     "@devextreme/runtime" "~2.3.15"
@@ -11032,9 +11032,9 @@
   "version" "2.1.0"
 
 "tslib@^2.4.0":
-  "integrity" "sha512-336iVw3rtn2BUK7ORdIAHTyxHGRIHVReokCR3XjbckJMK7ms8FysBfhLR8IXnAgy7T0PTPNBWKiH514FOW/WSg=="
-  "resolved" "http://npmproxy.devexpress.devx:4873/tslib/-/tslib-2.5.0.tgz"
-  "version" "2.5.0"
+  "integrity" "sha512-mSxlJJwl3BMEQCUNnxXBU9jP4JBktcEGhURcPR6VQVlnP0FdDEsIaz0C35dXNGLyRfrATNofF0F5p2KPxQgB+w=="
+  "resolved" "http://npmproxy.devexpress.devx:4873/tslib/-/tslib-2.5.3.tgz"
+  "version" "2.5.3"
 
 "tslib@2.0.1":
   "integrity" "sha512-SgIkNheinmEBgx1IUNirK0TUD4X9yjjBRTqqjggWCU3pUEqIk3/Uwl3yRixYKT6WjQuGiwDv4NomL3wqRCj+CQ=="
@@ -11941,9 +11941,9 @@
     "yargs-parser" "^18.1.2"
 
 "yargs@^17.2.1":
-  "integrity" "sha512-cwiTb08Xuv5fqF4AovYacTFNxk62th7LKJ6BL9IGUpTJrWoU7/7WdQGTP2SjKf1dUNBGzDd28p/Yfs/GI6JrLw=="
-  "resolved" "http://npmproxy.devexpress.devx:4873/yargs/-/yargs-17.7.1.tgz"
-  "version" "17.7.1"
+  "integrity" "sha512-7dSzzRQ++CKnNI/krKnYRV7JKKPUXMEh61soaHKg9mrWEhzFWhFnxPxGl+69cD1Ou63C13NUPCnmIcrvqCuM6w=="
+  "resolved" "http://npmproxy.devexpress.devx:4873/yargs/-/yargs-17.7.2.tgz"
+  "version" "17.7.2"
   dependencies:
     "cliui" "^8.0.1"
     "escalade" "^3.1.1"
