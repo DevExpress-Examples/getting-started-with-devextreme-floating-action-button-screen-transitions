@@ -1,0 +1,36 @@
+<div id="app-container">
+    <dx-tab-panel
+        (onSelectionChanged)="switchSDAs($event)">
+        <dxi-item title="Edit tab">
+            <p>Edit tab's content</p>
+        </dxi-item>
+        <dxi-item title="Share tab">
+            <p>Share tab's content</p>
+        </dxi-item>
+    </dx-tab-panel>
+    <dx-speed-dial-action
+        hint="Edit"
+        icon="icon ion-md-create"
+        [visible]="currentTab === 'Edit tab'"
+        (onClick)="showNotification('Edit is clicked')">
+    </dx-speed-dial-action>
+
+    <dx-speed-dial-action
+        hint="Copy to clipboard"
+        icon="icon ion-md-copy"
+        [visible]="currentTab === 'Share tab'"
+        (onClick)="showNotification('Copied to clipboard')">
+    </dx-speed-dial-action>
+    <dx-speed-dial-action
+        hint="Send by email"
+        icon="icon ion-md-mail"
+        [visible]="currentTab === 'Share tab'"
+        (onClick)="showNotification('Sent by email')">
+    </dx-speed-dial-action>
+    <dx-speed-dial-action
+        hint="Share on Facebook"
+        icon="icon ion-logo-facebook"
+        [visible]="currentTab === 'Share tab'"
+        (onClick)="showNotification('Shared on Facebook')">
+    </dx-speed-dial-action>
+</div>
