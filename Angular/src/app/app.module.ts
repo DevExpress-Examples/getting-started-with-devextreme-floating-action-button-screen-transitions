@@ -1,19 +1,19 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { DxButtonModule } from 'devextreme-angular/ui/button';
+import { DxTabPanelModule } from 'devextreme-angular/ui/tab-panel';
+import { DxSpeedDialActionModule } from 'devextreme-angular/ui/speed-dial-action';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-  ],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    DxButtonModule,
+    DxTabPanelModule,
+    DxSpeedDialActionModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

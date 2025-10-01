@@ -1,5 +1,23 @@
 import { Component } from '@angular/core';
-import { ClickEvent } from 'devextreme/ui/button';
+import notify from 'devextreme/ui/notify';
+import config from 'devextreme/core/config';
+import { GlobalConfig } from 'devextreme/common';
+import { DxTabPanelTypes } from 'devextreme-angular/ui/tab-panel';
+import { Properties as ToastProperties } from 'devextreme/ui/toast';
+
+const globalConfig: GlobalConfig = {
+  floatingActionButtonConfig: {
+    icon: 'icon ion-md-share',
+    position: {
+      my: 'right bottom',
+      at: 'right bottom',
+      of: '#app-container',
+      offset: '-16 -16',
+    },
+  },
+};
+
+config(globalConfig);
 
 @Component({
   selector: 'app-root',
@@ -7,14 +25,28 @@ import { ClickEvent } from 'devextreme/ui/button';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'Angular';
+  currentTab: string;
 
-  counter = 0;
+  constructor() {
+    this.currentTab = 'Edit tab';
+  }
 
-  buttonText = 'Click count: 0';
+  switchSDAs(e: DxTabPanelTypes.SelectionChangedEvent): void {
+    this.currentTab = e.addedItems[0].title;
+  }
 
-  onClick(e: ClickEvent): void {
-    this.counter++;
-    this.buttonText = `Click count: ${this.counter}`;
+  showNotification(message: string): void {
+    const options: ToastProperties = {
+      message,
+      position: {
+        my: 'left bottom',
+        at: 'left bottom',
+        of: '#app-container',
+        offset: '16 -16',
+      },
+      width: 320 * 0.7,
+    };
+
+    notify(options, 'info', 1000);
   }
 }

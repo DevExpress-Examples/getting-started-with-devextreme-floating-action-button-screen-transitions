@@ -1,6 +1,14 @@
 module.exports = {
   root: true,
   extends: ['devextreme/spell-check'],
+  rules: {
+    'spellcheck/spell-checker': [
+      'error',
+      {
+        skipWords: ['facebook', 'ecma', 'globals', 'dx'],
+      },
+    ],
+  },
   overrides: [{
     files: ['*.js'],
     extends: ['devextreme/jquery'],

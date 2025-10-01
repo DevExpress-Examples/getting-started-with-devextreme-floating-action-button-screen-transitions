@@ -16,11 +16,12 @@ This repository stores the code examples of the Floating Action Button component
     - [app.component.html](Angular/src/app/app.component.html)
     - [app.component.ts](Angular/src/app/app.component.ts)
 - **jQuery**
-    - [index.js](jQuery/index.js)
+    - [index.js](jQuery/src/index.js)
 - **React**
     - [App.js](React/src/App.js)
 - **Vue**
     - [App.vue](Vue/src/App.vue)
+    - [FormContent.vue](Vue/src/components/FormContent.vue)
 
 ## Documentation
 
