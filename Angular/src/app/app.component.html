@@ -9,7 +9,7 @@
   </dx-tab-panel>
   <dx-speed-dial-action
     hint="Edit"
-    icon="icon ion-md-create"
+    icon="edit"
     [visible]="currentTab === 'Edit tab'"
     (onClick)="showNotification('Edit is clicked')"
   >
@@ -17,23 +17,23 @@
 
   <dx-speed-dial-action
     hint="Copy to clipboard"
-    icon="icon ion-md-copy"
+    icon="copy"
     [visible]="currentTab === 'Share tab'"
     (onClick)="showNotification('Copied to clipboard')"
   >
   </dx-speed-dial-action>
   <dx-speed-dial-action
     hint="Send by email"
-    icon="icon ion-md-mail"
+    icon="email"
     [visible]="currentTab === 'Share tab'"
     (onClick)="showNotification('Sent by email')"
   >
   </dx-speed-dial-action>
   <dx-speed-dial-action
-    hint="Share on Facebook"
-    icon="icon ion-logo-facebook"
+    hint="Share on Social Media"
+    icon="link"
     [visible]="currentTab === 'Share tab'"
-    (onClick)="showNotification('Shared on Facebook')"
+    (onClick)="showNotification('Shared on Social Media')"
   >
   </dx-speed-dial-action>
 </div>

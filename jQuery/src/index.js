@@ -1,4 +1,59 @@
 $(() => {
+  DevExpress.config({
+    floatingActionButtonConfig: {
+      icon: 'share',
+      position: {
+        my: 'right bottom',
+        at: 'right bottom',
+        of: '#app-container',
+        offset: '-16 -16',
+      },
+    },
+  });
+
+  const editAction = $('#action-edit')
+    .dxSpeedDialAction({
+      hint: 'Edit',
+      icon: 'edit',
+      onClick() {
+        showNotification('Edit is clicked');
+      },
+    })
+    .dxSpeedDialAction('instance');
+
+  const copyAction = $('#action-copy')
+    .dxSpeedDialAction({
+      hint: 'Copy to clipboard',
+      icon: 'copy',
+      visible: false,
+      onClick() {
+        showNotification('Copied to clipboard');
+      },
+    })
+    .dxSpeedDialAction('instance');
+
+  const mailAction = $('#action-mail')
+    .dxSpeedDialAction({
+      hint: 'Send by email',
+      icon: 'email',
+      visible: false,
+      onClick() {
+        showNotification('Sent by email');
+      },
+    })
+    .dxSpeedDialAction('instance');
+
+  const facebookAction = $('#action-social')
+    .dxSpeedDialAction({
+      hint: 'Share on Social Media',
+      icon: 'link',
+      visible: false,
+      onClick() {
+        showNotification('Shared on Social Media');
+      },
+    })
+    .dxSpeedDialAction('instance');
+
   $('#tab-panel').dxTabPanel({
     items: [
       {
@@ -18,61 +73,6 @@ $(() => {
       switchSDAs(e.addedItems[0].title);
     },
   });
-
-  DevExpress.config({
-    floatingActionButtonConfig: {
-      icon: 'icon ion-md-share',
-      position: {
-        my: 'right bottom',
-        at: 'right bottom',
-        of: '#app-container',
-        offset: '-16 -16',
-      },
-    },
-  });
-
-  const editAction = $('#action-edit')
-    .dxSpeedDialAction({
-      hint: 'Edit',
-      icon: 'icon ion-md-create',
-      onClick() {
-        showNotification('Edit is clicked');
-      },
-    })
-    .dxSpeedDialAction('instance');
-
-  const copyAction = $('#action-copy')
-    .dxSpeedDialAction({
-      hint: 'Copy to clipboard',
-      icon: 'icon ion-md-copy',
-      visible: false,
-      onClick() {
-        showNotification('Copied to clipboard');
-      },
-    })
-    .dxSpeedDialAction('instance');
-
-  const mailAction = $('#action-mail')
-    .dxSpeedDialAction({
-      hint: 'Send by email',
-      icon: 'icon ion-md-mail',
-      visible: false,
-      onClick() {
-        showNotification('Sent by email');
-      },
-    })
-    .dxSpeedDialAction('instance');
-
-  const facebookAction = $('#action-facebook')
-    .dxSpeedDialAction({
-      hint: 'Share on Facebook',
-      icon: 'icon ion-logo-facebook',
-      visible: false,
-      onClick() {
-        showNotification('Shared on Facebook');
-      },
-    })
-    .dxSpeedDialAction('instance');
 
   function switchSDAs(tabTitle) {
     if (tabTitle === 'Edit Tab') {
@@ -99,10 +99,8 @@ $(() => {
           of: '#app-container',
           offset: '16 -16',
         },
-        minWidth: null,
-        width() {
-          return $('#app-container').width() * 0.7;
-        },
+        minWidth: 0,
+        width: 320 * 0.7,
       },
       'info',
       1000,

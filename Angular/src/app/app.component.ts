@@ -7,7 +7,7 @@ import { Properties as ToastProperties } from 'devextreme/ui/toast';
 
 const globalConfig: GlobalConfig = {
   floatingActionButtonConfig: {
-    icon: 'icon ion-md-share',
+    icon: 'share',
     position: {
       my: 'right bottom',
       at: 'right bottom',
@@ -45,6 +45,7 @@ export class AppComponent {
         offset: '16 -16',
       },
       width: 320 * 0.7,
+      minWidth: 0,
     };
 
     notify(options, 'info', 1000);

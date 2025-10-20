@@ -13,7 +13,7 @@ import type { Properties as ToastProperties } from 'devextreme/ui/toast';
 
 const globalConfig: GlobalConfig = {
   floatingActionButtonConfig: {
-    icon: 'icon ion-md-share',
+    icon: 'share',
     position: {
       my: 'right bottom',
       at: 'right bottom',
@@ -35,6 +35,7 @@ function showNotification(message: string): void {
       offset: '16 -16',
     },
     width: 320 * 0.7,
+    minWidth: 0,
   };
 
   notify(options, 'info', 1000);
@@ -62,8 +63,8 @@ function App(): JSX.Element {
     showNotification('Sent by email');
   }, []);
 
-  const handleFacebookClick = useCallback((): void => {
-    showNotification('Shared on Facebook');
+  const handleSocialClick = useCallback((): void => {
+    showNotification('Shared on Social Media');
   }, []);
 
   return (
@@ -78,27 +79,27 @@ function App(): JSX.Element {
       </TabPanel>
       <SpeedDialAction
         hint="Edit"
-        icon="icon ion-md-create"
+        icon="edit"
         visible={currentTab === 'Edit tab'}
         onClick={handleEditClick}
       />
       <SpeedDialAction
         hint="Copy to clipboard"
-        icon="icon ion-md-copy"
+        icon="copy"
         visible={currentTab === 'Share tab'}
         onClick={handleCopyClick}
       />
       <SpeedDialAction
         hint="Send by email"
-        icon="icon ion-md-mail"
+        icon="email"
         visible={currentTab === 'Share tab'}
         onClick={handleMailClick}
       />
       <SpeedDialAction
-        hint="Share on Facebook"
-        icon="icon ion-logo-facebook"
+        hint="Share on Social Media"
+        icon="link"
         visible={currentTab === 'Share tab'}
-        onClick={handleFacebookClick}
+        onClick={handleSocialClick}
       />
     </div>
   );

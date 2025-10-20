@@ -11,7 +11,7 @@ import type { TabItem } from '../types';
 
 const floatingActionButtonConfig: GlobalConfig = {
   floatingActionButtonConfig: {
-    icon: 'icon ion-md-share',
+    icon: 'share',
     position: {
       my: 'right bottom',
       at: 'right bottom',
@@ -40,6 +40,7 @@ const showNotification = (message: string): void => {
       offset: '16 -16',
     },
     width: 320 * 0.7,
+    minWidth: 0,
   };
   notify(options, 'info', 1000);
 };
@@ -61,27 +62,27 @@ const showNotification = (message: string): void => {
     </DxTabPanel>
     <DxSpeedDialAction
       hint="Edit"
-      icon="ion ion-md-create"
+      icon="edit"
       :visible="currentTab === 'Edit tab'"
       @click="showNotification('Edit is clicked')"
     />
     <DxSpeedDialAction
       hint="Copy to clipboard"
-      icon="ion ion-md-copy"
+      icon="copy"
       :visible="currentTab === 'Share tab'"
       @click="showNotification('Copied to clipboard')"
     />
     <DxSpeedDialAction
       hint="Send by email"
-      icon="ion ion-md-mail"
+      icon="email"
       :visible="currentTab === 'Share tab'"
       @click="showNotification('Sent by email')"
     />
     <DxSpeedDialAction
-      hint="Share on Facebook"
-      icon="ion ion-logo-facebook"
+      hint="Share on Social Media"
+      icon="link"
       :visible="currentTab === 'Share tab'"
-      @click="showNotification('Shared on Facebook')"
+      @click="showNotification('Shared on Social Media')"
     />
   </div>
 </template>
@@ -91,14 +92,15 @@ const showNotification = (message: string): void => {
   text-align: center;
 }
 
-p {
-  text-align: center;
-}
-
 #app-container {
   height: 360px;
   width: 320px;
-  border: 1px solid black;
+  border: 1px solid rgb(221 221 221);
+}
+
+p {
+  font-size: 14px;
+  text-align: center;
 }
 
 .dx-tabpanel .dx-tabs-wrapper {
