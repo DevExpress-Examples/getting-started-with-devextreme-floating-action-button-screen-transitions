@@ -28,7 +28,7 @@ This repository stores the code examples of the Floating Action Button component
 
 - [Floating Action Button - API Reference](https://js.devexpress.com/Documentation/ApiReference/UI_Components/dxSpeedDialAction/)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=getting-started-with-devextreme-floating-action-button-screen-transitions&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=getting-started-with-devextreme-floating-action-button-screen-transitions&~~~was_helpful=no)
 
