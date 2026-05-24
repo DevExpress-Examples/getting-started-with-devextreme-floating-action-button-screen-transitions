@@ -19,11 +19,13 @@ const globalConfig: GlobalConfig = {
 
 config(globalConfig);
 
+import { DxTabPanelModule } from 'devextreme-angular/ui/tab-panel';
+
 @Component({
     selector: 'app-root',
+    imports: [DxTabPanelModule],
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.scss'],
-    standalone: false
 })
 export class AppComponent {
   currentTab: string;
