@@ -20,10 +20,11 @@ const globalConfig: GlobalConfig = {
 config(globalConfig);
 
 import { DxTabPanelModule } from 'devextreme-angular/ui/tab-panel';
+import { DxSpeedDialActionModule } from 'devextreme-angular/ui/speed-dial-action';
 
 @Component({
     selector: 'app-root',
-    imports: [DxTabPanelModule],
+    imports: [DxTabPanelModule, DxSpeedDialActionModule],
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.scss'],
 })
