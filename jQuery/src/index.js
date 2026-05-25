@@ -43,7 +43,7 @@ $(() => {
     })
     .dxSpeedDialAction('instance');
 
-  const facebookAction = $('#action-social')
+  const socialAction = $('#action-social')
     .dxSpeedDialAction({
       hint: 'Share on Social Media',
       icon: 'link',
@@ -79,13 +79,13 @@ $(() => {
       editAction.option('visible', true);
       copyAction.option('visible', false);
       mailAction.option('visible', false);
-      facebookAction.option('visible', false);
+      socialAction.option('visible', false);
     }
     if (tabTitle === 'Share Tab') {
       editAction.option('visible', false);
       copyAction.option('visible', true);
       mailAction.option('visible', true);
-      facebookAction.option('visible', true);
+      socialAction.option('visible', true);
     }
   }
 
